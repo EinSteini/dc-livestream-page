@@ -1,0 +1,25 @@
+.card{
+    width: 15rem;
+    height: fit-content;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.user-info{
+    display: flex;
+    gap: 10px;
+
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .user-team{
+        font-weight: bold;
+    }
+}

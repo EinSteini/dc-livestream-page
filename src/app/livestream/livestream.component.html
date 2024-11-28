@@ -1,0 +1,28 @@
+<div class="livestream-container">
+    <div class="top-bar">
+        <div class="left-side">
+            <img src="assets/channelicon.png" class="logo" />
+            <span class="channel-name">{{ channelName }}</span>
+            <span class="seperator"> | </span>
+            <img src="assets/bwm.png" class="bwm" />
+            <span class="channeltext">Livestream von EinSteini</span>
+        </div>
+        <div class="right-side">
+            <div class="quality">
+                <span class="quality-text">1080p 30 FPS</span>
+                <span class="live">LIVE</span>
+            </div>
+        </div>
+      
+    </div>
+
+    <div class="stream-area">
+    </div>
+  
+    <div class="user-list">
+      <div *ngFor="let user of users" class="user">
+        <app-usercard [user]="user"></app-usercard>
+      </div>
+    </div>
+  </div>
+  
