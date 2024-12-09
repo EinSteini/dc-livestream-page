@@ -14,7 +14,8 @@ import { User } from '../models/user.model';
   styleUrl: './livestream.component.scss'
 })
 export class LivestreamComponent {
-  channelName: string = 'team-mein-lieblingsteam';
+  channelName: string = 'veto';
+  channelDescription: string = 'Gruppe A - Match 2';
 
   allUsers: User[] = [
     { name: 'Telouiii', avatar: 'assets/players/telouiii.jpg', color: 'magenta', team: 'PinkHund', teamAvatar: 'assets/teams/pinkhund.png' },
