@@ -26,8 +26,19 @@
     display: flex;
     gap: 10px;
     margin: 10px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     text-wrap: nowrap;
+
+    .logo{
+      width: 32px;
+      height: 32px;
+    }
+
+    .bwm{
+      width: 28px;
+      height: 32px;
+    }
   }
 
   .channel-name{
@@ -81,7 +92,7 @@
     font-size: 14px;
     margin-top: 5px;
   }
-  
+
   /* User List */
   .user-list {
     height: 25%;
@@ -89,6 +100,7 @@
     background-color: #2c2f33;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 15px;
     padding: 10px;
   }

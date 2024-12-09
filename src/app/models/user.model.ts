@@ -3,4 +3,5 @@ export interface User {
     avatar: string;
     color: string;
     team: string;
+    teamAvatar: string;
 }
